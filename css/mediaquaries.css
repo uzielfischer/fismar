@@ -16,7 +16,10 @@
 }
 
 @media screen and (max-width: 480px) {
-   
+   .overlay img{
+        margin-top: 10px;
+        max-width: 300px;
+    }
     header .logo .promo{
         font-size: .5em;
     }
