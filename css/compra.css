@@ -108,11 +108,13 @@ header .enlace_libre .negro i:hover {
 */
 @media screen and (max-width: 540px) {
     .contenedor .buy-wrapper .sub-buy{
-        grid-template-columns: minmax(1fr 1fr);
-        grid-gap: 5px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .contenedor .buy-wrapper .title h1{
-        font-size: 2em;
+        font-size: 3em;
     }
 }
 
