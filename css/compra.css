@@ -111,7 +111,9 @@ header .enlace_libre .negro i:hover {
         grid-template-columns: minmax(1fr 1fr);
         grid-gap: 5px;
     }
-
+    .contenedor .buy-wrapper .title h1{
+        font-size: 2em;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -119,6 +121,9 @@ header .enlace_libre .negro i:hover {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .contenedor .buy-wrapper .title h1{
+        font-size: 2em;
     }
 }
 
