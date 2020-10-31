@@ -1,0 +1,49 @@
+/*
+      Mediaqueries
+*/
+@media screen and (max-width: 768px) {
+    .overlay img{
+        margin-top: 10px;
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .overlay img{
+        margin-top: 10px;
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   
+    header .logo .promo{
+        font-size: .5em;
+    }
+    header .categorias a{
+        margin: 10px 15px;
+        font-size: 0.6em;
+    }
+    .grid .items{
+        width: calc(50% -20px);
+    }
+
+    header .bar_busqueda {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 380px){
+    .overlay img{
+        margin-top: 8px;
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .overlay img{
+        margin-top: 10px;
+        max-width: 220px;
+    }
+}

@@ -1,0 +1,59 @@
+/*       
+        FOOTER
+*/
+
+footer .redes_sociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+footer .redes_sociales a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    background: #000000;
+    margin: 20px;
+    text-align: center;
+    border-radius: 100px;
+    transition: .3s ease all;
+}
+footer .redes_sociales .facebook{ background: #3b5998;}
+footer .redes_sociales .instagram{ background: #c13584;}
+
+footer .redes_sociales a i{
+    font-size: 1.5em;
+    line-height: 60px;
+}
+footer .contenedor_icon:hover a{
+    animation: icon .5s ease;
+
+}
+
+@keyframes icon {
+    from {
+        transform: rotate3d(0,0,0,0);
+    }
+    to {
+        transform: rotate3d(0,1,0, 360deg);
+    }
+}
+
+footer .derechos_autor {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #737374;
+}
+footer .derechos_autor a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Quicksand';
+    font-weight: 800;
+    font-size: 1.2em;
+}

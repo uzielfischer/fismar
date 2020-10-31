@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+header .enlace_libre {
+    display: flex;
+    justify-content: left;
+    margin: 0 10px;
+}
+header .enlace_libre a{
+    text-decoration: none;
+    color: #3b5998;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px 20px;
+    font-family: 'Relaway';
+}
+header .enlace_libre a:hover{
+    color: #0a0938;
+}
+
+header .enlace_libre .negro{
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+header .enlace_libre .negro:hover {
+    color: #595569;
+}
+header .enlace_libre .negro i {
+    margin: 0 5px;
+}
+header .enlace_libre .negro i:hover {
+    color: #595569;
+}
+
+/*
+         Contenido compra
+*/
+.contenedor .buy-wrapper{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenedor .buy-wrapper .title{
+    margin: 20px;
+}
+.contenedor .buy-wrapper .title h1{
+    font-size: 4em;
+    font-weight: 800;
+    color: #010111;
+}
+
+.contenedor .buy-wrapper .sub-buy{
+    width: 100%;
+    margin: 0;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    /*grid-template-columns: minmax(1fr 1fr);*/
+}
+.sub-buy .cont-sub{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.sub-buy .cont-sub .circulo{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 1.5em;
+    background: #fdd3fc;
+    padding: 15px;
+}
+.sub-buy .cont-sub .subtitle{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: #010111;
+}
+.sub-buy .icon-sub{
+    margin: 20px;
+    padding: 20px;
+}
+.sub-buy .icon-sub i{
+    margin-top: 30px;
+    font-size: 6em;
+    color: #010118;
+}
+
+/*.uno-cir{
+    background: #C17CFE;
+}
+.uno-col{
+    color: #a853f1;
+}*/
+
+/*
+        Media queries
+*/
+@media screen and (max-width: 540px) {
+    .contenedor .buy-wrapper .sub-buy{
+        grid-template-columns: minmax(1fr 1fr);
+        grid-gap: 5px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .contenedor .buy-wrapper .sub-buy{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+

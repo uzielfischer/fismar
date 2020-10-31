@@ -1,0 +1,78 @@
+/*HEADER*/
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+header .logo{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+header .logo h1{
+    font-size: 4em;
+    font-family: 'Quicksand';
+    color: #000000;
+    /*background-color: rgba(0, 0, 0,);*/
+}
+header .logo .eslogan{
+    font-size: 1em;
+    font-family: 'Raleway';
+    color: #7c7a7a;
+    /*background-color: rgba(0, 0, 0,);*/
+    
+    
+}
+header .logo .promo{
+    padding: 5px 0;
+    background-color:#ffe2fe;
+    color: #000000;
+    font-size: 0.6em;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+/*BARRA DE BUSQUEDA*/
+
+header form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+header .bar_busqueda{
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    background: #f7f5f5;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/*Menu bar*/
+header .categorias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header .categorias a{
+    color: #595569;
+    margin: 10px 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+}
+header .categorias a.activo{
+    color: #000000;
+    font-weight: 700;
+}
