@@ -70,6 +70,20 @@ header .enlace_libre .negro i:hover {
     align-content: center;
     flex-wrap: wrap;
 }
+.sub-buy .cont-sub p{
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.sub-buy .cont-sub .parrafo_cinco{
+    font-size: 1em;
+    margin-top: 15px;
+    color: #030336;
+}
+.sub-buy .cont-sub ul li{
+    text-align: left;
+    font-size: 1.2em;
+}
 .sub-buy .cont-sub .circulo{
     display: block;
     width: 60px;
